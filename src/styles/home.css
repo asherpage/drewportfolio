@@ -87,7 +87,14 @@ body{
     z-index: 1;
     background-color: #6880FF;
 }
+.also{
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
 @media screen and (max-width: 1150px) {
+    .mobile-top{
+        margin-top: 15%;
+    }
     .flex-cont {
         width: 100%;
         height: fit-content;
@@ -95,8 +102,6 @@ body{
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
-        margin: auto;
-        margin-top: 5%;
     }
 
     .rev {
@@ -128,4 +133,17 @@ body{
     .imagyo img {
         height: 450px;
     }
+}
+@media screen and (max-width: 600px) {
+.mobile-top {
+        margin-top: 25%;
+    }
+        .imagyo img {
+            height: 400px;
+            width: fit-content;
+            border-radius: 250px;
+        }
+        #giter{
+            display: none;
+        }
 }

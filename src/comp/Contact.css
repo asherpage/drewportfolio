@@ -84,6 +84,7 @@ h3 {
 .form-input:focus,
 textarea:focus {
     outline: 1.5px solid #404DBD;
+    box-shadow: 0 0 10px #404DBD;
 }
 
 .form-input,
